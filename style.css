@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Santio bold', 'Roboto', 'Mr Dafoe', serif;
+    margin: 0;
+}
+main{
+    background-image: url(img/cleo-topper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+header{
+    font-family: 'Santio';
+    text-align: right;
+    padding-top: 10px;
+    
+}
+header img{
+    width: 15px;
+    display:inline-block;
+    padding-right: 10px;
+}
+header a{
+    padding-right: 10px;
+    color: #efefef;
+    text-decoration: underline #e7bc0e;
+    letter-spacing: 3px;
+}
+
+
+
+.millions h3{
+    color:  #efefef;
+    font-size: 3rem;
+    width: 30%;
+    padding-left: 10%;
+    margin-top: 30vh;
+    margin-bottom: 50vh;
+}
+.millions a{
+    color: #e7bc0e;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 10%;
+    font-family: 'Mr Dafoe';
+}
+
+
+
+.green p{
+    font-size: 3em;
+    color: #6bc1a3;
+    line-height: 1.5em;
+    margin: 100vh 10% 80vh;
+}
+.green span{
+    color: #efefef;
+    background-color: black;
+}
+
+
+
+
+article{
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 10rem;
+    margin: 0;
+}
+.themen p{
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.themen img{
+    width: 200px;
+    margin-top: 40vh;
+}
+
+.themen article:nth-of-type(1){
+    color: #e7bc0e;
+}
+.themen article:nth-of-type(1) span{
+    color: white;
+    background-color: #000;
+}
+.themen article:nth-of-type(2){
+    color: #cb91b6;
+}
+.themen article:nth-of-type(2) span{
+    color: white;
+    background-color: #000;
+}
+.themen article:nth-of-type(3){
+    color: #6bc1a3 ;
+}
+.themen article:nth-of-type(3) span{
+    color: white;
+    background-color: #000;
+}
+
+
+
+.blue p{
+    margin: 45vh 10% auto 30%;
+    color: #7eb8e1;
+    font-size: 3rem;
+    line-height: 1.5em;
+}
+.blue span{
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+.kids{
+    background-image: url(img/kid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.black{
+    background-color: #000;
+}
+.black h2{
+    margin: 0em;
+    padding: 60vh 10% 0 10%;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 40vh;
+}
+.black a{
+    margin-left: 10%;
+    margin-top: 10vh;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+
+footer{
+    
+    padding-top: 30vh;
+    background-color: #000;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+footer a{
+    color: #6bc1a3;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*
+Font: Santio bold, Roboto, Mr Dafoe
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+*/
